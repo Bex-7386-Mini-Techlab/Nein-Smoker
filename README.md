@@ -6,6 +6,8 @@
 
 Nein-Smoker is a hybrid IoT edge computing prototype with an ESP8266 and MQ135 sensor. It computes corrected gas concentration and maps results into safety states, providing local alerts and a standalone access-point dashboard.
 
+![System Schematic](docs/web-dashboard.png)
+
 ## Key Features
 
 - Corrected PPM air-quality computation from MQ135 sensor data
@@ -36,13 +38,6 @@ Nein-Smoker is a hybrid IoT edge computing prototype with an ESP8266 and MQ135 s
   - `ESP8266WiFi`, `ESP8266WebServer`
   - `MQ135` sensor library
   - Sketches: `main-v1`, `main-v1-web`, `test-sensor`
-
-## References
-
-- MQ135 sensor and library documentation: https://github.com/GeorgK/MQ135
-- MQ135 datasheet: https://www.olimex.com/Products/Components/Sensors/SNS-MQ135/resources/SNS-MQ135.pdf
-- ESP8266 Arduino core documentation: https://arduino-esp8266.readthedocs.io/en/latest/
-- `ESP8266WiFi` / `ESP8266WebServer` API references: https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi.html
 
 ## Installation & Setup
 
@@ -118,11 +113,13 @@ Nein-Smoker/
 - Calibrate thresholds using reference data
 - Add OTA firmware update support for field deployments
 
-## License
 
-MIT
+## References
+
+- MQ135 sensor and library documentation: https://github.com/GeorgK/MQ135
+- MQ135 datasheet: https://www.olimex.com/Products/Components/Sensors/SNS-MQ135/resources/SNS-MQ135.pdf
+- ESP8266 Arduino core documentation: https://arduino-esp8266.readthedocs.io/en/latest/
+- `ESP8266WiFi` / `ESP8266WebServer` API references: https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi.html
 
 ---
-Curated by .Bex 7386 Mini-Techlab  
-Stay calibrating curiosity  
-Stay thirst :: 73.86%
+<p align="center"> Curated by .Bex 7386 Mini-Techlab </strong></p>

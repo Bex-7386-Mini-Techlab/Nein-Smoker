@@ -17,7 +17,7 @@ Nein-Smoker is a hybrid IoT edge computing prototype with an ESP8266 and MQ135 s
 
 ## System Architecture
 
-![System Schematic](docs/images/schematic.png)
+![System Schematic](docs/schematic.png)
 
 1. MQ135 measures ambient gas concentration.
 2. ESP8266 applies temperature/humidity correction.
